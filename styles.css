@@ -1,0 +1,103 @@
+body {
+    background: linear-gradient(to bottom, #ffffff, #98fb98);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Cairo', sans-serif;
+    direction: rtl;
+    text-align: center;
+    color: #333; 
+}
+
+.container {
+    width: 100%; /* Make container responsive */
+    max-width: 800px; /* Optional: Set a max width for larger screens */
+}
+
+h1.headline {
+    font-size: 36px;
+    color: #333;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.card {
+    border: none;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    cursor: pointer;
+    height: 250px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.card-selected {
+    border: 2px solid #27ae60;
+}
+
+.card-title {
+    font-size: 16px;
+    color: #333;
+}
+
+.card-img-top,
+.card-img-bottom {
+    height: 70%;
+    width: 100%;
+    margin-top: 20px;
+    object-fit: contain; 
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.form-control {
+    max-width: 100%;
+    padding: 14px;  
+    border-radius: 13px;
+    border: 1px solid #ddd;
+}
+
+button#generateButton {
+    border-radius: 13px;
+    border: 2px solid #ddd;
+    font-size: 18px;
+    padding: 10px 30px;
+    background-color: #27ae60;
+    color: white;
+}
+
+button#generateButton:hover {
+    background-color: #219150;
+}
+
+.styled-number {
+    font-size: 48px; 
+    font-family: 'Caveat', cursive; 
+    color: black; 
+    text-shadow: 2px 2px 0 #000, -2px -2px 0 #000;
+    padding: 5px;
+    letter-spacing: 2px; 
+    display: inline-block;
+    transform: skew(1deg, -1deg); 
+}
+
+.row.justify-content-center {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.form-control.text-center {
+    text-align: center;
+}
+
+.validation-message {
+    font-size: 14px;
+    margin-top: 5px;
+    color: red;
+}
+.mt-2 {
+    margin-top: 20px; /* Adjust the value as needed */
+}
